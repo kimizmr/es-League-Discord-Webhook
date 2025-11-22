@@ -1,0 +1,2550 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>eS-League Malaysia | FIFA</title>
+<!-- ヘッダメタ -->
+
+<link rel="shortcut icon" href="../../../img/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../img/apple-touch-icon-180x180.png">
+<meta name="robots" content="index,follow">
+<meta name="google-site-verification" content="7kNM10tW9eqGyQ58Gw5c5eIezeY-XNkVUtVWmQRMFs8" />
+<meta property="og:site_name" content="eS-League Malaysia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="eS-League Malaysia | FIFA">
+<meta property="og:description" content="PS4 software FIFA series competition management site centered on 11on matches. Content other than games, such as video distribution of official games and cards of eS League players that are considered FUT, are also enriched!">
+<meta property="og:url" content="https://es-league.games/malaysia/fifa/league/date.php?leagueno=0397">
+<meta property="og:image" content="https://es-league.games/img/es-league.gif">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+<meta name="copyright" content="&copy; 2015 eS-League.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177602004-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177602004-1');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+/*
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3245073910245140",
+    enable_page_level_ads: true
+  });
+*/
+</script>
+
+<link href="../../../es_new/css/base.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	.menu-open-tab:before {content: "[Open]"; font-size: 12px; font-weight: normal; color:#00f; position: absolute; right: 8px; transition: .3s;}
+	.menu-open-tab.menu-open-tab-open:before {content: "[Close]";}
+</style>
+<script type="text/javascript" src="../../../Chart/Chart.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script language="JavaScript" src="../../../es_new/js/js.js" type="text/JavaScript" charset="shift_jis"></script>
+<script language="JavaScript" src="../../../es_new/js/tab.js" type="text/JavaScript" charset="shift_jis"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<link href="https://use.fontawesome.com/releases/v6.1.0/css/all.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"></script>
+
+<script>
+$(function() {
+  $('.skitter-large').skitter({
+  				navigation: true,
+  				theme:"minimalist",
+                auto_play: false,
+				dots: false,
+  });
+});
+
+    function acdMenu() {
+        //デフォルトでアコーディオンの中身を非表示
+        $(".acMenu dd").css("display", "none");
+        $(".acMenu2 ul").css("display", "none");
+ 
+        //第2階層のアコーディオン　
+        $(".acMenu dt").click(function() {
+            $(".acMenu dt").not(this).next().slideUp("fast");
+            $(this).toggleClass("open").next().slideToggle("fast");
+        });
+ 
+        //第3階層のアコーディオン
+        $(".acMenu2 p").click(function() {
+            $(this).toggleClass("openAcd").next().slideToggle("fast");
+        });
+    }
+ 
+    $(function() {
+        acdMenu();
+    });
+	
+$(function() {
+  var $nav   = $('#navArea');
+  var $btn   = $('.toggle_btn');
+  var $mask  = $('#mask');
+  var open   = 'open'; // class
+  // menu open close
+  $btn.on( 'click', function() {
+    if ( ! $nav.hasClass( open ) ) {
+      $nav.addClass( open );
+    } else {
+      $nav.removeClass( open );
+    }
+  });
+  // mask close
+  $mask.on('click', function() {
+    $nav.removeClass( open );
+  });
+} )(jQuery);
+
+$(function() {
+	$('.animation-mv01').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+	  if(isInView){
+		$(this).stop().addClass('mv01','animation-wait_10','animation-wait_200','animation-wait_400','animation-wait_600');
+		$(this).stop().removeClass('animation-reset');
+	  }
+/*
+	  else{
+		$(this).stop().removeClass('mv01','animation-wait_10','animation-wait_200','animation-wait_400');
+		$(this).stop().addClass('animation-reset');
+	  }
+*/
+	});
+	$('.animation-mv02').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+	  if(isInView){
+		$(this).stop().addClass('mv01','animation-wait_10','animation-wait_200','animation-wait_400','animation-wait_600');
+		$(this).stop().removeClass('animation-reset');
+	  }
+/*
+	  else{
+		$(this).stop().removeClass('mv01','animation-wait_10','animation-wait_200','animation-wait_400');
+		$(this).stop().addClass('animation-reset');
+	  }
+*/
+	});
+});
+</script>
+</head>
+<body>
+<!-- ヘッダー -->
+
+<h1>eS-League</h1>
+<header>
+	<div id="menu-switch-pc">
+	<div class="menu-under-line">
+<div class="menu-container">
+	<div class="menu-drawer">
+		<div class="menu-pc">
+			<ul>
+				<li><a href="../../"><img src="../../../../es_new/img/logo.png" class="image-middle" width="50%" alt="eS-League"></a></li>
+
+
+				<li><a>CLUB</a>
+					<ul>
+
+						<li><a href="../../club_list/?game_type=fifa">FIFA First League</a>
+							<ul>
+
+								<li><a href="../../fifa/club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" width="28" class="image-middle" alt="ANTZFIELD ESPORTS"><span class="pl10">ANTZFIELD ESPORTS</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" width="28" class="image-middle" alt="AZZURRIX VFC"><span class="pl10">AZZURRIX VFC</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" width="28" class="image-middle" alt="Bionic GCMY"><span class="pl10">Bionic GCMY</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" width="28" class="image-middle" alt="Dragon Citizen"><span class="pl10">Dragon Citizen</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" width="28" class="image-middle" alt="Lokal Esports"><span class="pl10">Lokal Esports</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" width="28" class="image-middle" alt="Los Primos VFC"><span class="pl10">Los Primos VFC</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" width="28" class="image-middle" alt="LOS TIGRELEON"><span class="pl10">LOS TIGRELEON</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" width="28" class="image-middle" alt="PROJEK KILAT"><span class="pl10">PROJEK KILAT</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" width="28" class="image-middle" alt="Regista CF"><span class="pl10">Regista CF</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" width="28" class="image-middle" alt="TEAM HARITU"><span class="pl10">TEAM HARITU</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" width="28" class="image-middle" alt="Tomyam XI"><span class="pl10">Tomyam XI</span></a></li>
+
+								<li><a href="../../fifa/club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" width="28" class="image-middle" alt="WEARETOXIC VFC"><span class="pl10">WEARETOXIC VFC</span></a></li>
+
+							</ul>
+						</li>
+
+					</ul>
+				</li>
+				<li><a>COMPS</a>
+					<ul>
+						<li><a>Competition in progress</a>
+							<ul>
+
+								<li><a href="../../fifa/league/?leagueno=0397">eS-League MALAYSIA S 17</a></li>
+
+							</ul>
+						</li>
+						<li><a>Archive</a>
+							<ul>
+
+								<li><a href="../../comps_list/?game_date=2025&game_type=fifa">2025</a></li>
+
+								<li><a href="../../comps_list/?game_date=2024&game_type=fifa">2024</a></li>
+
+								<li><a href="../../comps_list/?game_date=2023&game_type=fifa">2023</a></li>
+
+								<li><a href="../../comps_list/?game_date=2022&game_type=fifa">2022</a></li>
+
+								<li><a href="../../comps_list/?game_date=2021&game_type=fifa">2021</a></li>
+
+								<li><a href="../../comps_list/?game_date=2020&game_type=fifa">2020</a></li>
+
+								<li><a href="../../comps_list/?game_date=2019&game_type=fifa">2019</a></li>
+
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="../../rule/">RULES</a></li>
+				<li><a>More</a>
+					<ul>
+						<li><a>eS-League</a>
+							<ul>
+								<li><a href="../../../es_league/eng/">About eS-League</a></li>
+								<li><a href="../../news/">News</a></li>
+								<li><a href="../../live/live.php">LIVE for Youtube</a></li>
+								<li><a href="../../logo/">eS-League Logo</a></li>
+								<li><a href="https://es-league.games/malaysia/contact/">Contact Us</a></li>
+
+								<li><a href="https://es-league.games/malaysia/login/">LOGIN</a></li>
+								<li><a href="https://es-league.games/malaysia/registration/">New registration</a></li>
+
+							</ul>
+						</li>
+						<li><a>Support</a>
+							<ul>
+								<li><a href="../../offer/">Find club</a></li>
+								<li><a href="../../offer/list.php?game_type=fifa">FA player list</a></li>
+
+<!--
+								<li><a href="https://es-league.games/malaysia/good_play_fifa/">好プレー投稿窓口</a></li>
+-->
+								<li><a href="../../point_fifa/">Club ranking</a></li>
+								<li><a href="../../point_fifa/player.php">Member ranking</a></li>
+
+								<li><a href="https://es-league.games/malaysia/no_affiliation/fifa_index.php">Free player list</a></li>
+							</ul>
+						</li>
+						<li><a>External site</a>
+							<ul>
+								<li><a href="https://twitter.com/eS_League_Sport"><img src="../../../../es_new/img/menu-twitter.png" width="16" class="image-middle" alt="Twitter"><span class="pl10">Twitter</span></a></li>
+								<li><a href="https://www.youtube.com/channel/UCSXM5Ph_YNMUMH594K9lTbQ"><img src="../../../../es_new/img/menu-youtube.png" width="16" class="image-middle" alt="YouTube"><span class="pl10">YouTube</span></a></li>
+								<li><a href="https://www.facebook.com/eS.League.game/"><img src="../../../../es_new/img/menu-facebook.png" width="16" class="image-middle" alt="Facebook"><span class="pl10">Facebook</span></a></li>
+								<li><a href="https://discord.gg/xNWHaPD"><img src="../../../../es_new/img/menu-discord.png" width="16" class="image-middle" alt="Discord"><span class="pl10">Discord</span></a></li>
+							</ul>
+						</li>
+<!--
+						<li><a>スポンサー</a>
+							<ul>
+								<li><a href="https://www.g-square.biz/">G-SQUARE</a></li>
+							</ul>
+						</li>
+-->
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+	
+	<div id="menu-switch-sp">
+	  <div id="menu-wrapper">
+		<div id="menu" class="wrapper-middle-center">
+		  <div class="wrapper-flex"><div id="logo" class="wrapper-middle-number"><a href="../../"><img src="../../../../es_new/img/logo.png" class="image-middle" width="100%" alt="eS-League"></a></div></div>
+		  <div class="main-menu-width"><a href="./?leagueno=0397"><div class="menu-height"><div><i class="fas fa-trophy main-menu-icon" aria-hidden="true"></i></div><div class="main-menu-name">RANKING</div></div></a></div>
+		  <div class="main-menu-width"><a href="date.php?leagueno=0397"><div class="menu-height"><div><i class="fa-solid fa-calendar-days main-menu-icon" aria-hidden="true"></i></div><div class="main-menu-name">Date / Result</div></div></a></div>
+
+		  <div class="main-menu-width"><a href="card.php?leagueno=0397"><div class="menu-height"><div><i class="fa-solid fa-triangle-exclamation main-menu-icon" aria-hidden="true"></i></div><div class="main-menu-name">Warnings</div></div></a></div>
+		  <div class="main-menu-width"><div class="toggle_btn"><a><div class="menu-height"><div><i class="fas fa-list main-menu-icon" aria-hidden="true"></i></div><div class="main-menu-name">MORE</div></div></a></div></div>
+		</div>
+	  </div>
+	</div>
+</header>
+
+<div id="main-menu-sp">
+	<div id="navArea">
+	  <nav>
+		<div class="inner">
+			<ul class="acMenu">
+					<li>
+						<dl><a href="../../"><dt class="menu-ttl"><i class="fa fa-house sp-menu-icon" aria-hidden="true"></i> Home</dt></a></dl>
+						<dl>
+							<dt class="menu-ttl"><i class="fas fa-trophy sp-menu-icon" aria-hidden="true"></i> eS-League MALAYSIA S 17</dt>
+							<dd>
+								<ul class="acMenu2 menu-link">
+									<a href="./?leagueno=0397"><li>RANKING</li></a>
+									<a href="date.php?leagueno=0397"><li>Date / Result</li></a>
+
+									<a href="card.php?leagueno=0397"><li>Warnings</li></a>
+								</ul>
+							</dd>
+						</dl>
+
+
+						<dl>
+							<dt class="menu-ttl"><i class="fa fa-shield-alt sp-menu-icon" aria-hidden="true"></i> Club list</dt>
+							<dd>
+								<ul>
+
+									<li class="acMenu2">
+										<p class="sub-menu-ttl">FIFA First League</p>
+										<ul class="acMenu3">
+
+											<a href="../../fifa/club/?clubno=638"><li><img src="../../../img/emblem/fifa/club_emblem_638.png" width="32" class="image-middle" alt="ANTZFIELD ESPORTS"><span class="pl10">ANTZFIELD ESPORTS</span></li></a>
+
+											<a href="../../fifa/club/?clubno=709"><li><img src="../../../img/emblem/fifa/club_emblem_709.png" width="32" class="image-middle" alt="AZZURRIX VFC"><span class="pl10">AZZURRIX VFC</span></li></a>
+
+											<a href="../../fifa/club/?clubno=681"><li><img src="../../../img/emblem/fifa/club_emblem_681.png" width="32" class="image-middle" alt="Bionic GCMY"><span class="pl10">Bionic GCMY</span></li></a>
+
+											<a href="../../fifa/club/?clubno=713"><li><img src="../../../img/emblem/fifa/club_emblem_713.png" width="32" class="image-middle" alt="Dragon Citizen"><span class="pl10">Dragon Citizen</span></li></a>
+
+											<a href="../../fifa/club/?clubno=139"><li><img src="../../../img/emblem/fifa/club_emblem_139.png" width="32" class="image-middle" alt="Lokal Esports"><span class="pl10">Lokal Esports</span></li></a>
+
+											<a href="../../fifa/club/?clubno=716"><li><img src="../../../img/emblem/fifa/club_emblem_716.png" width="32" class="image-middle" alt="Los Primos VFC"><span class="pl10">Los Primos VFC</span></li></a>
+
+											<a href="../../fifa/club/?clubno=508"><li><img src="../../../img/emblem/fifa/club_emblem_508.png" width="32" class="image-middle" alt="LOS TIGRELEON"><span class="pl10">LOS TIGRELEON</span></li></a>
+
+											<a href="../../fifa/club/?clubno=375"><li><img src="../../../img/emblem/fifa/club_emblem_375.png" width="32" class="image-middle" alt="PROJEK KILAT"><span class="pl10">PROJEK KILAT</span></li></a>
+
+											<a href="../../fifa/club/?clubno=468"><li><img src="../../../img/emblem/fifa/club_emblem_468.png" width="32" class="image-middle" alt="Regista CF"><span class="pl10">Regista CF</span></li></a>
+
+											<a href="../../fifa/club/?clubno=606"><li><img src="../../../img/emblem/fifa/club_emblem_606.png" width="32" class="image-middle" alt="TEAM HARITU"><span class="pl10">TEAM HARITU</span></li></a>
+
+											<a href="../../fifa/club/?clubno=672"><li><img src="../../../img/emblem/fifa/club_emblem_672.png" width="32" class="image-middle" alt="Tomyam XI"><span class="pl10">Tomyam XI</span></li></a>
+
+											<a href="../../fifa/club/?clubno=110"><li><img src="../../../img/emblem/fifa/club_emblem_110.png" width="32" class="image-middle" alt="WEARETOXIC VFC"><span class="pl10">WEARETOXIC VFC</span></li></a>
+
+										</ul>
+									</li>
+
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<a href="../../rule/"><dt class="menu-ttl"><i class="fa fa-book sp-menu-icon" aria-hidden="true"></i> RULES</dt></a>
+<!--
+							<dd>
+								<ul>
+									<li class="acMenu2">
+										<p class="sub-menu-ttl">総合</p>
+										<ul class="acMenu3">
+											<a href="#"><li>eS-League大会参加規約(ブラウザ)</li></a>
+											<a href="#"><li>eS-League大会参加規約(PDFダウンロード)</li></a>
+										</ul>
+									</li>
+									<li class="acMenu2">
+										<p class="sub-menu-ttl">eFootball</p>
+										<ul class="acMenu3">
+											<a href="#"><li>準備と進行のやり方</li></a>
+										</ul>
+									</li>
+									<li class="acMenu2">
+										<p class="sub-menu-ttl">FIFA</p>
+										<ul class="acMenu3">
+											<a href="#"><li>eSリーグポイントについて</li></a>
+											<a href="#"><li>準備と進行のやり方</li></a>
+											<a href="#"><li>リーグ戦レギュレーション＆ルール</li></a>
+											<a href="#"><li>カップ戦レギュレーション＆ルール</li></a>
+											<a href="#"><li>FIFA22 eS-League JAPAN 11th の大会概要について</li></a>
+										</ul>
+									</li>
+								</ul>
+							</dd>
+-->
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt class="menu-ttl"><i class="fa-solid fa-gamepad sp-menu-icon" aria-hidden="true"></i> eS-League</dt>
+							<dd>
+								<ul class="acMenu2 menu-link">
+									<a href="../../news/"><li>News</li></a>
+									<a href="../../live/live.php"><li>LIVE for Youtube</li></a>
+									<a href="../../logo/"><li>eS-League Logo</li></a>
+									<a href="https://es-league.games/malaysia/contact/"><li>Contact Us</li></a>
+
+									<a href="https://es-league.games/malaysia/login/"><li>LOGIN</li></a>
+									<a href="https://es-league.games/malaysia/registration/"><li>New registration</li></a>
+
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt class="menu-ttl"><i class="fa-solid fa-hand-holding sp-menu-icon" aria-hidden="true"></i> Support</dt>
+							<dd>
+								<ul class="acMenu2 menu-link">
+									<a href="../../offer/"><li>Find club</li></a>
+									<a href="../../offer/list.php?game_type=fifa"><li>FA player list</li></a>
+
+<!--
+									<a href="https://es-league.games/malaysia/good_play_fifa/"><li>好プレー投稿窓口</li></a>
+-->
+									<a href="../../point_fifa/"><li>Club ranking</li></a>
+									<a href="../../point_fifa/player.php"><li>Member ranking</li></a>
+
+								</ul>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt class="menu-ttl"><i class="fa-solid fa-link sp-menu-icon" aria-hidden="true"></i> External site</dt>
+							<dd>
+								<ul class="acMenu2 menu-link">
+									<a href="https://twitter.com/eS_League_Sport" target="_blank"><li><img src="../../../../es_new/img/menu-twitter.png" width="16" class="image-middle" alt="Twitter"><span class="pl10">Twitter</span></li></a>
+									<a href="https://www.youtube.com/channel/UCSXM5Ph_YNMUMH594K9lTbQ" target="_blank"><li><img src="../../../../es_new/img/menu-youtube.png" width="16" class="image-middle" alt="YouTube"><span class="pl10">YouTube</span></li></a>
+									<a href="https://www.facebook.com/eS.League.game" target="_blank"><li><img src="../../../../es_new/img/menu-facebook.png" width="16" class="image-middle" alt="Facebook"><span class="pl10">Facebook</span></li></a>
+									<a href="https://discordapp.com/invite/VqjBxru" target="_blank"><li><img src="../../../../es_new/img/menu-discord.png" width="16" class="image-middle" alt="Discord"><span class="pl10">Discord</span></li></a>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+<!--
+					<li>
+						<dl>
+							<dt class="menu-ttl"><i class="fa-solid fa-handshake sp-menu-icon" aria-hidden="true"></i> スポンサー</dt>
+							<dd>
+								<ul class="acMenu2 menu-link">
+									<a href="https://www.g-square.biz/" target="_blank"><li>G-SQUARE</li></a>
+								</ul>
+							</dd>
+						</dl>
+					</li>
+-->
+			</ul>
+		</div>	
+	  </nav>
+	  <div id="mask"></div>
+	</div>
+</div>
+
+<div class="contents-main-area">
+	<div align="center">
+		<div class="main-contents">
+			<div class="mypage-menu-select">
+				<a href="./?leagueno=0397" class="mypage-menu-select-outer mypage-menu-select-01"><div class="mypage-menu-select-inner"><div class="mypage-menu-select-marker">RANKING</div></div></a>
+				<a href="date.php?leagueno=0397" class="mypage-menu-select-outer mypage-menu-select-02 mypage-menu-on"><div class="mypage-menu-select-inner"><div class="mypage-menu-select-marker">Date / Result</div></div></a>
+				<a href="list.php?leagueno=0397" class="mypage-menu-select-outer mypage-menu-select-02"><div class="mypage-menu-select-inner"><div class="mypage-menu-select-marker">Score Sheet</div></div></a>
+
+				<a href="card.php?leagueno=0397" class="mypage-menu-select-outer mypage-menu-select-03"><div class="mypage-menu-select-inner"><div class="mypage-menu-select-marker">Warnings</div></div></a>
+			</div>
+			<div class="comps-match-list">
+				<div class="comps-match-list-left">
+
+					<div class="comps-match-list-left-sp ChangeContent_Btn_Content">
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 1・Group 2</div>
+								<div class="comps-match-list-data-date">11.12.2025 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 3・Group 4</div>
+								<div class="comps-match-list-data-date">11.19.2025 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 5・Group 6</div>
+								<div class="comps-match-list-data-date">11.26.2025 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 7・Group 8</div>
+								<div class="comps-match-list-data-date">12.03.2025 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 9・Group 10</div>
+								<div class="comps-match-list-data-date">12.10.2025 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 11・Group 12</div>
+								<div class="comps-match-list-data-date">12.17.2025 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 13・Group 14</div>
+								<div class="comps-match-list-data-date">01.07.2026 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 15・Group 16</div>
+								<div class="comps-match-list-data-date">01.14.2026 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 17・Group 18</div>
+								<div class="comps-match-list-data-date">01.21.2026 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 19・Group 20</div>
+								<div class="comps-match-list-data-date">01.28.2026 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+						<div class="comps-match-list-data ChangeContent_Btn">
+							<div class="comps-match-list-data-text">
+								<div class="comps-match-list-data-name">Group 21・Group 22</div>
+								<div class="comps-match-list-data-date">02.04.2026 23:00(Malaysia Time)</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<div class="comps-match-list-right">
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 1</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=01&game_matchno=01">1 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=01&game_matchno=02">0 - 1</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=01&game_matchno=03">6 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=01&game_matchno=04">1 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=01&game_matchno=05">0 - 1</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=01&game_matchno=06">3 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 2</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=02&game_matchno=01">1 - 2</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=02&game_matchno=02">2 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=02&game_matchno=03">7 - 3</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=02&game_matchno=04">0 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=02&game_matchno=05">2 - 3</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=02&game_matchno=06">3 - 2</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 3</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=03&game_matchno=01">0 - 2</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=03&game_matchno=02">3 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=03&game_matchno=03">1 - 4</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=03&game_matchno=04">0 - 1</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=03&game_matchno=05">1 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=03&game_matchno=06">2 - 2</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 4</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=04&game_matchno=01">0 - 3</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=04&game_matchno=02">0 - 6</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=04&game_matchno=03">4 - 1</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=04&game_matchno=04">2 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=04&game_matchno=05">3 - 0</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/?game_type=1&gameno=0397&game_number=04&game_matchno=06">4 - 3</a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 5</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=05&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=05&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=05&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=05&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=05&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=05&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 6</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=06&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=06&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=06&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=06&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=06&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=06&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 7</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=07&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=07&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=07&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=07&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=07&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=07&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 8</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=08&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=08&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=08&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=08&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=08&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=08&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 9</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=09&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=09&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=09&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=09&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=09&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=09&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 10</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=10&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=10&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=10&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=10&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=10&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=10&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 11</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=11&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=11&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=11&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=11&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=11&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=11&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 12</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=12&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=12&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=12&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=12&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=12&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=12&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 13</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=13&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=13&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=13&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=13&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=13&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=13&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 14</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=14&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=14&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=14&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=14&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=14&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=14&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 15</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=15&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=15&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=15&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=15&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=15&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=15&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 16</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=16&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=16&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=16&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=16&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=16&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=16&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 17</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=17&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=17&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=17&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=17&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=17&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=17&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 18</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=18&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=18&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=18&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=18&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=18&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=18&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 19</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=19&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=19&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606">HR2</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=19&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=19&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=19&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=19&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 20</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468">WAR</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=20&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=20&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=20&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672">TXI</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=20&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=20&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=20&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						</div>
+
+					<div class="ChangeContent_Panel ClubList-League">
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 21</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=21&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=21&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=21&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=21&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=21&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709">AZ</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=21&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="menu-open-tab menu-open-tab-open">eS-League MALAYSIA S 17 Group 22</div>
+						<div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=110">WEARETOXIC VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=110">NXi</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=110"><img src="../../../img/emblem/fifa/club_emblem_110.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=22&game_matchno=01">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=672"><img src="../../../img/emblem/fifa/club_emblem_672.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=672">Tomyam XI</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=672"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=375">PROJEK KILAT</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=375">KIL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=375"><img src="../../../img/emblem/fifa/club_emblem_375.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=22&game_matchno=02">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=709"><img src="../../../img/emblem/fifa/club_emblem_709.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=709">AZZURRIX VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=709"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=716">Los Primos VFC</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=716"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=716"><img src="../../../img/emblem/fifa/club_emblem_716.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=22&game_matchno=03">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=468"><img src="../../../img/emblem/fifa/club_emblem_468.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=468">Regista CF</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=468"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=508">LOS TIGRELEON</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=508"></a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=508"><img src="../../../img/emblem/fifa/club_emblem_508.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=22&game_matchno=04">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=713"><img src="../../../img/emblem/fifa/club_emblem_713.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=713">Dragon Citizen</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=713"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=638">ANTZFIELD ESPORTS</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=638">ANT</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=638"><img src="../../../img/emblem/fifa/club_emblem_638.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=22&game_matchno=05">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=606"><img src="../../../img/emblem/fifa/club_emblem_606.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=606">TEAM HARITU</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=606"></a></div>
+								</div>
+							</div>
+
+							<div class="comps-match-schedule-area">
+								<div class="comps-match-list-club-area" align="right">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=139">Lokal Esports</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=139">LKL</a></div>
+								</div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=139"><img src="../../../img/emblem/fifa/club_emblem_139.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-vs"><a href="../score/vs.php?game_type=1&gameno=0397&game_number=22&game_matchno=06">vs<div class="comps-match-list-vs-result">Match record</div></a></div>
+								<div class="comps-match-list-emblem-area"><a href="../club/?clubno=681"><img src="../../../img/emblem/fifa/club_emblem_681.png" class="comps-match-list-emblem"></a></div>
+								<div class="comps-match-list-club-area" align="left">
+									<div class="comps-match-list-club-name"><a href="../club/?clubno=681">Bionic GCMY</a></div>
+									<div class="comps-match-list-club-name-sp"><a href="../club/?clubno=681"></a></div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- フッター -->
+
+<div id="copyright">&copy; 2015 eS-League.</div>
+
+</body>
+</html>
